@@ -1,0 +1,35 @@
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage.xml
+htmlcov/
+.coverage
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE and editor files
+.idea/
+.vscode/
+.settings/
+*.swp
+*.swo
+
+# OS metadata
+.DS_Store
+
+# Logs and local environment
+*.log
+.env
+.env.*
+!.env.example
